@@ -1,0 +1,34 @@
+[project]
+name = "voice-agent-qa"
+version = "0.1.0"
+description = "Drive a Pipecat voice agent as a bot, from Python. For nightly smoke tests, regression checks, and headless reproduction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Deepak Dhingra", email = "dpkdhingra91@gmail.com"}]
+keywords = ["pipecat", "voice", "voice-agents", "ai", "testing", "qa", "websocket", "rtvi"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "httpx>=0.27.0",
+    "websockets>=12.0",
+    "protobuf>=5.27,<7",
+]
+
+[project.urls]
+Homepage = "https://github.com/dpkdhingra91/voice-agent-qa"
+Issues = "https://github.com/dpkdhingra91/voice-agent-qa/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
