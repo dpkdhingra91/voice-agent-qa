@@ -172,6 +172,12 @@ Extracted from the QA harness for [AIIA](https://aiinterviewagents.com) — a pr
 
 The interview-flow assertions, persona LLM, and TTS-driven candidate bot are *not* in this open-source extraction — they're too domain-specific. What's here is the reusable kernel: the protocol implementation. PRs welcome.
 
+## Related projects
+
+- 🎯 [`pipecat-sarvam-azure-starter`](https://github.com/dpkdhingra91/pipecat-sarvam-azure-starter) — the matching server: Sarvam STT + Azure OpenAI + Sarvam TTS, ready to drive with this client.
+- 🧪 [`claude-qa-harness-skill`](https://github.com/dpkdhingra91/claude-qa-harness-skill) — Claude Code skill that uses `voice-agent-qa` for nightly smoke tests.
+- 📡 [`pipecat-ws-protocol-docs`](https://github.com/dpkdhingra91/pipecat-ws-protocol-docs) — protocol reference this client implements.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
